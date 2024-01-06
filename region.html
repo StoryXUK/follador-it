@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Follador</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Menu -->
+    <div class="cappa-wrap">
+        <div class="cappa-wrap-inner">
+            <nav class="cappa-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+
+                    <!-- <li><a href="about.html">About</a></li> -->
+
+
+
+                    <li><a href="all-prosecco.html">Our Wines</a></li>
+
+                    <!-- <li class="cappa-menu-sub"><a href="prosecco.html">Prosecco <i class="ti-angle-down"></i></a>
+                        <ul>
+                            <li><a href="torre-do-credazzo.html">Torre Do Credazzo</a></li>
+                            <li><a href="prosecco.html">Valdobbiadene Superiore DOCG</a></li>
+                            <li><a href="prosecco.html">Prosecco DOC Treviso</a></li>
+                            <li><a href="prosecco.html">Frizzanti Prosecco DOC</a></li>
+
+                        </ul>
+                    </li> -->
+
+                    <li class="cappa-menu-sub"><a href="#">The Estate <i class="ti-angle-down"></i></a>
+                        <ul>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="region.html">Region</a></li>
+
+                            <li><a href="winery.html">Winery</a></li>
+                            <li><a href="vineyards.html">Vineyards</a></li>
+                            <li><a href="unesco.html">UNESCO</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="cappa-menu-sub"><a href="#">Our Heritage <i class="ti-angle-down"></i></a>
+                        <ul>
+                            <li><a href="heritage.html">Heritage</a></li>
+                            <li><a href="family.html">Follador Family</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li><a href="experiences.html">Wine Experiences</a></li>
+
+                    <li class="cappa-menu-sub"><a href="#">Company <i class="ti-angle-down"></i></a>
+                        <ul>
+                            <li><a href="about.html">About </a></li>
+                            <li><a href="sustainability.html">Sustainability </a></li>
+                            <li><a href="world.html">World</a></li>
+                            <!-- <li><a href="team.html">Team</a></li> -->
+                            <!-- <li><a href="careers.html">Careers</a></li> -->
+                            <!-- <li><a href="news.html">News</a></li> -->
+
+                        </ul>
+                    </li>
+
+
+                    <li><a target="_blank" href="https://0cfa56-3.myshopify.com/">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- <div class="cappa-menu-footer">
+                <div class="reservation">
+                    <a href="tel:8551004444">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <i class="flaticon-call"></i>
+                        </div>
+                        <div class="call">Reservation<br><span>855 100 4444</span></div>
+                    </a>
+                </div>
+            </div> -->
+            <section class="cappa-menu-footer">
+                <div class="nav-language"> <i class="lni ti-world"></i>
+                    <select onchange="location = this.value;">
+                        <option value="#0">English</option>
+                        <option value="https://folladorprosecco.it/">Italian</option>
+                    </select>
+                </div>
+            </section>
+
+
+            <!-- <section class="cappa-menu-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-subtitle">The Estate</div>
+                           
+                        </div>
+                        
+                        <div class="col-md-4 gallery-item">
+                            <a href="img/slider/7.jpg" title="" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img"> <img src="img/slider/7.jpg"
+                                            class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 gallery-item">
+                            <a href="img/slider/5.jpg" title="" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img"> <img src="img/slider/5.jpg"
+                                            class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 gallery-item">
+                            <a href="img/slider/4.jpg" title="" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img"> <img src="img/slider/4.jpg"
+                                            class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4 gallery-item">
+                            <a href="img/slider/7.jpg" title="" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img"> <img src="img/slider/7.jpg"
+                                            class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 gallery-item">
+                            <a href="img/slider/5.jpg" title="" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img"> <img src="img/slider/5.jpg"
+                                            class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 gallery-item">
+                            <a href="img/slider/4.jpg" title="" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img"> <img src="img/slider/4.jpg"
+                                            class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section> -->
+        </div>
+    </div>
+    <!-- Logo & Menu Burger -->
+    <header class="cappa-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Logo -->
+                <div class="col-6 col-md-6 cappa-logo-wrap">
+                    <a href="index.html" class="cappa-logo"><img src="img/logo.png" alt="Follador Logo"></a>
+                </div>
+                <!-- Menu Burger -->
+                <div class="col-6 col-md-6 text-right cappa-wrap-burger-wrap"> <a href="#"
+                        class="cappa-nav-toggle cappa-js-cappa-nav-toggle"><i></i></a> </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ////////////////////////////////// Header End ////////////////////////////////// -->
+
+
+
+
+
+
+
+    <!-- Header Banner -->
+    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4"
+        data-background="img/slider/1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 caption mt-90">
+                    <h5>Follodor Prosecco</h5>
+                    <h1>The Region</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <section class="rooms-page section-padding" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <div class="section-subtitle">The Homeland Of Prosecco</div>
+                    <div class="section-title">Conegliano Valdobbiadene</div>
+                </div>
+
+                <div class="col-md-12">
+                    <p class="mb-30">The homeland of Prosecco is a specific hilly area of the Veneto Region: Conegliano
+                        Valdobbiadene. Since 2019 it has been a Unesco World Heritage Site thanks to its inestimable
+                        value as a "cultural landscape". This territory has always been the setting for our company,
+                        with its green vineyards that spread visibly over the hills and the generous grapes from which
+                        the Prosecco we all know is born.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-90 animate-box" data-animate-effect="fadeInUp">
+
+                    <div class="section-subtitle">Follador Prosecco</div>
+                    <div class="section-title">The Estate</div>
+                    <p>Within reach of the romance and intrigue
+                        of historic Venice, the Veneto region
+                        of Northeast Italy oozes charm and boasts
+                        the ideal Prosecco “Terroir”. For centuries
+                        it has been and continues to be the locale
+                        for growing the Prosecco wine. Not only
+                        well-respected by wine-makers as the historic
+                        home of Prosecco wine, the Prosecco region
+                        of Veneto is also legally designated as such.
+                    </p>
+                    <div class="butn-dark"> <a href="estate.html"><span>Learn More</span></a> </div>
+                    <!-- call -->
+
+                </div>
+                <div class="col col-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <img src="img/heritage/heritage_3.jpg" alt="The Follador Estate" class="mb-30">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-7 mt-30 animate-box" data-animate-effect="fadeInUp">
+                    <img src="img/region/region 2.jpg" alt="maps showing the prosecco regions" class="mb-30">
+                </div>
+                <div class="col-md-5 animate-box" data-animate-effect="fadeInUp">
+
+                    <div class="section-subtitle">the two capitals</div>
+                    <div class="section-title">Valdobbiadene and Conegliano</div>
+                    <p>The area includes 15 villages, with the two
+                        capitals of Valdobbiadene and Conegliano
+                        marking the boundary. At the very heart of this
+                        region stands Col San Martino, the home
+                        of Follador. Col San Martino is famed for
+                        its superb wine-growing conditions, including
+                        an ideal micro-climate, the support of one of
+                        Italy’s foremost wine-producing regions, and
+                        the perfect soil composition of rock and clay.
+                        Follador Vineyards, sitting at the very centre
+                        of it all, enjoy the best of all worlds.</p>
+                    <!-- <div class="butn-dark"> <a href="estate.html"><span>Learn More</span></a> </div> -->
+                    <!-- call -->
+                    <!-- call -->
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mt-90 animate-box" data-animate-effect="fadeInUp">
+
+                    <div class="section-subtitle">Over 250 years of history</div>
+                    <div class="section-title">UNESCO</div>
+                    <p>Further prestigious endorsement of the
+                        excellence of this terroir came on 7th July 2019,
+                        when the UNESCO Heritage Commission
+                        declared Conegliano Valdobbiadene a World
+                        Heritage Site and tasked it with continuing
+                        the conservation, protection and promotion
+                        of the site’s original characteristics.
+                    </p>
+                    <!-- <div class="butn-dark"> <a href=""><span>Learn More</span></a> </div> -->
+                    <!-- call -->
+
+                </div>
+                <div class="col col-md-7 mt-90 animate-box" data-animate-effect="fadeInUp">
+                    <img src="img/estate/teritory.jpg" alt="Follador Prosecco territory" class="mb-30">
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <img src="img/region/glera.jpg" alt="person holding a bunch of glera grapes" class="mb-30">
+                </div>
+                <div class="col-md-6 mt-30 animate-box" data-animate-effect="fadeInUp">
+
+                    <div class="section-subtitle">Follador Prosecco</div>
+                    <div class="section-title">The Glera Grape</div>
+                    <p>Obtained from Glera grape, Prosecco is distinguished for its fruity and fragrant wine
+                        characteristics with a delicate nose. The Prosecco vine is hardy and vigorous with quite large,
+                        long grape clusters of golden yellow. The wine itself demonstrates a straw-yellow colour with
+                        greenish hue overlay. The nose offers a fragrant bouquet, including golden apples, citrus fruits
+                        and fresh plants, interspersed with lilac and acacia flowers.</p>
+
+                        <p>With the right soil composition, hills well exposed to sunlight, abundant and frequent rainfall,
+                        constant mild temperatures between April and October, and marked temperature changes during the
+                        ripening season, there simply is no better place to produce this wine.</p>
+                    <div class="butn-dark"> <a href="prosecco.html"><span>Learn More</span></a> </div>
+                    <!-- call -->
+                    <!-- call -->
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- ////////////////////////////// Footer ////////////////////////////// -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row mb-90">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <a href="index.html" class="cappa-logo"><img src="img/logo.png" alt="Follador Logo"></a>
+
+                    </div>
+                </div>
+                <hr class="mb-90">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="footer-column footer-about">
+                            <h3 class="footer-title">About Follodor</h3>
+                            <p class="footer-about-text">The Follador Family cares a lot about its cultural heritage in
+                                the production of wine. It has neither stood still in the past, nor is it intimidated by
+                                modern times, but has quietly married traditional cultivation techniques in the
+                                vineyards with the most modern production technologies, this to obtain wines highly
+                                regarded even by experts in the sector. </p>
+
+                            <div class="footer-language"> <i class="lni ti-world"></i>
+                                <select onchange="location = this.value;">
+                                    <option value="#0">English</option>
+                                    <option value="https://folladorprosecco.it/">Italian</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="footer-column footer-explore clearfix">
+                            <h3 class="footer-title">Explore</h3>
+                            <ul class="footer-explore-list list-unstyled">
+                                <li><a href="index.html">UNESCO</a></li>
+                                <li><a href="sustainability.html">Sustainability</a></li>
+                                <li><a href="heritage.html">The Heritage</a></li>
+                                <li><a href="media-kit.html">Media Kit</a></li>
+                                <li><a href="faq.html">FAQ's</a></li>
+
+                            </ul>
+                            <h3 class="footer-title">Legal</h3>
+                            <ul class="footer-explore-list list-unstyled">
+                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                <li><a href="terms.html">Terms & Conditions</a></li>
+                                <li><a href="cookies.html">Cookie Policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-column footer-contact">
+                            <h3 class="footer-title">Contact</h3>
+                            <p class="footer-contact-text">Via Gravette, 42<br>31010 Col San Martino<br>Treviso<br>Italy
+
+
+
+                            </p>
+                            <div class="footer-contact-info">
+                                <p class="footer-contact-phone"><span class="flaticon-call"></span> +390438898222</p>
+                                <p class="footer-contact-mail"> info@folladorprosecco.com</p>
+                            </div>
+                            <div class="footer-about-social-list">
+                                <a target="_blank" href="https://www.instagram.com/proseccofollador/"><i
+                                        class="ti-instagram"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/company/follador-prosecco-dal-1769"><i
+                                        class="ti-linkedin"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCIMqqfRoUlIQ2QfezR2aN-w"><i
+                                        class="ti-youtube"></i></a>
+                                <a target="_blank" href="https://www.facebook.com/folladorprosecco"><i
+                                        class="ti-facebook"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-inner">
+                            <p class="footer-bottom-copy-right">© Copyright 2024 Follodor Prosecco | Website made with
+                                &#9825; by <a href="https://story-x.co.uk/">StoryX</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
