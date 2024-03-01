@@ -732,3 +732,91 @@ var form = $('.contact__form'),
         // Add your order logic here
         console.log('Order link clicked');
       }
+
+
+
+
+
+      function showOverlay(element) {
+        var overlay = element.querySelector('.overlay-wine');
+        if (overlay) {
+            overlay.style.opacity = 1;
+        }
+    }
+    
+    function hideOverlay(element) {
+        var overlay = element.querySelector('.overlay-wine');
+        if (overlay) {
+            overlay.style.opacity = 0;
+        }
+    }
+    
+    function showDetails() {
+        // Add your logic for showing details here
+        console.log('Details clicked');
+        // You might want to open a modal or navigate to another page
+    }
+
+
+
+
+    // Age Verification
+  // Function to show the age verification modal
+  function showAgeVerificationModal() {
+    // Check if the modal has been shown before
+    if (!localStorage.getItem('ageVerificationShown')) {
+        document.getElementById('ageVerificationModal').style.display = 'block';
+    }
+}
+
+// Function to hide the age verification modal
+function hideAgeVerificationModal() {
+    document.getElementById('ageVerificationModal').style.display = 'none';
+}
+
+// Function to verify age
+function verifyAge() {
+    // You can add your age verification logic here
+    // For simplicity, let's assume the user is always older than 18
+    // Instead of showing an alert, proceed to the site
+    // Set a flag in local storage to indicate that the modal has been shown
+    localStorage.setItem('ageVerificationShown', 'true');
+    window.location.href = 'your_site_url';
+}
+
+// Function to decline age
+function declineAge() {
+    // Redirect the user to a restricted access page
+    window.location.href = 'restricted-access.html';
+}
+
+// Call the showAgeVerificationModal function when the page loads
+window.onload = showAgeVerificationModal;
+
+
+
+
+
+
+
+
+// Navigation
+
+
+
+
+
+// Function to include footer from footer.html
+function includeFooter() {
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        });
+}
+
+// Call includeNavigation and includeFooter functions when the page loads
+window.onload = function() {
+   
+    includeFooter();
+};
