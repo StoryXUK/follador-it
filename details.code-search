@@ -1,0 +1,1045 @@
+# Query: details
+# ContextLines: 1
+
+413 results - 27 files
+
+all-prosecco.html:
+  186                                              <a href="torri_di_credazzo.html"
+  187:                                                 onclick="showDetails()"><span>Dettagli</span></a>
+  188                                          </div>
+
+  190                                          <div class="butn-dark">
+  191:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  192                                                          class="flaticon-shopping-cart"></i> Order</span></a>
+
+  213                                          <div class="butn-dark">
+  214:                                             <a href="xzero.html" onclick="showDetails()"><span>Dettagli</span></a>
+  215                                          </div>
+
+  217                                          <div class="butn-dark">
+  218:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  219                                                          class="flaticon-shopping-cart"></i> Order</span></a>
+
+  237                                          <div class="butn-dark">
+  238:                                             <a href="foselios.html" onclick="showDetails()"><span>Details</span></a>
+  239                                          </div>
+
+  241                                          <div class="butn-dark">
+  242:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  243                                                          class="flaticon-shopping-cart"></i> Order</span></a>
+
+  260                                              <a href="valdobbiadenes.html"
+  261:                                                 onclick="showDetails()"><span>Details</span></a>
+  262                                          </div>
+
+  264                                          <div class="butn-dark">
+  265:                                             <a href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  266                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  283                                              <a href="valdobbiadenes.html"
+  284:                                                 onclick="showDetails()"><span>Details</span></a>
+  285                                          </div>
+
+  287                                          <div class="butn-dark">
+  288:                                             <a href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  289                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  315                                          <div class="butn-dark">
+  316:                                             <a href="ruiol_castei.html" onclick="showDetails()"><span>Details</span></a>
+  317                                          </div>
+
+  319                                          <div class="butn-dark">
+  320:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  321                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  338                                              <a href="nani_dei_berti.html"
+  339:                                                 onclick="showDetails()"><span>Details</span></a>
+  340                                          </div>
+
+  342                                          <div class="butn-dark">
+  343:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  344                                                          class="flaticon-shopping-cart"></i> Order</span></a>
+
+  397                                          <div class="butn-dark">
+  398:                                             <a href="azzura.html" onclick="showDetails()"><span>Details</span></a>
+  399                                          </div>
+
+  401                                          <div class="butn-dark">
+  402:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  403                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  420                                          <div class="butn-dark">
+  421:                                             <a href="el_brolo.html" onclick="showDetails()"><span>Details</span></a>
+  422                                          </div>
+
+  424                                          <div class="butn-dark">
+  425:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  426                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  441                                          <div class="butn-dark">
+  442:                                             <a href="farder.html" onclick="showDetails()"><span>Details</span></a>
+  443                                          </div>
+
+  445                                          <div class="butn-dark">
+  446:                                             <a href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  447                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  462                                          <div class="butn-dark">
+  463:                                             <a href="runier.html" onclick="showDetails()"><span>Details</span></a>
+  464                                          </div>
+
+  466                                          <div class="butn-dark">
+  467:                                             <a href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  468                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  485                                          <div class="butn-dark">
+  486:                                             <a href="valbon.html" onclick="showDetails()"><span>Details</span></a>
+  487                                          </div>
+
+  489                                          <div class="butn-dark">
+  490:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  491                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  524                                          <div class="butn-dark">
+  525:                                             <a target="_blank" href="aeris.html" onclick="showDetails()"><span>Details</span></a>
+  526                                          </div>
+
+  528                                          <div class="butn-dark">
+  529:                                             <a href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  530                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  545                                          <div class="butn-dark">
+  546:                                             <a href="aeris.html" onclick="showDetails()"><span>Details</span></a>
+  547                                          </div>
+
+  549                                          <div class="butn-dark">
+  550:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  551                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  566                                          <div class="butn-dark">
+  567:                                             <a href="spago.html" onclick="showDetails()"><span>Details</span></a>
+  568                                          </div>
+
+  570                                          <div class="butn-dark">
+  571:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  572                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  587                                          <div class="butn-dark">
+  588:                                             <a href="renana.html" onclick="showDetails()"><span>Details</span></a>
+  589                                          </div>
+
+  591                                          <div class="butn-dark">
+  592:                                             <a href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  593                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  657                                          <div class="butn-dark">
+  658:                                             <a href="cuvee.html" onclick="showDetails()"><span>Details</span></a>
+  659                                          </div>
+
+  661                                          <div class="butn-dark">
+  662:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  663                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  680                                          <div class="butn-dark">
+  681:                                             <a href="leilia.html" onclick="showDetails()"><span>Details</span></a>
+  682                                          </div>
+
+  684                                          <div class="butn-dark">
+  685:                                             <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  686                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  702                                          <div class="butn-dark">
+  703:                                             <a href="vita_rosa.html" onclick="showDetails()"><span>Details</span></a>
+  704                                          </div>
+
+  706                                          <div class="butn-dark">
+  707:                                             <a href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  708                                                          class="flaticon-shopping-cart"></i>Order</span></a>
+
+  737                                              <div class="butn-dark">
+  738:                                                 <a href="joani.html" onclick="showDetails()"><span>Details</span></a>
+  739                                              </div>
+
+  741                                              <div class="butn-dark">
+  742:                                                 <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  743                                                              class="flaticon-shopping-cart"></i>Order</span></a>
+
+  758                                              <div class="butn-dark">
+  759:                                                 <a href="kleofe.html" onclick="showDetails()"><span>Details</span></a>
+  760                                              </div>
+
+  762                                              <div class="butn-dark">
+  763:                                                 <a target="_blank" href="" onclick="showDetails()"><span class="trolley-padding"> <i
+  764                                                              class="flaticon-shopping-cart"></i>Order</span></a>
+
+demo.html:
+  335                          <div class="con">
+  336:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  337:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  338                              <div class="line"></div>
+
+  348                                  <div class="col col-md-5 text-end">
+  349:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  350                                  </div>
+
+  358                          <div class="con">
+  359:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  360:                             <h5><a href="room-details.html">Family Room</a></h5>
+  361                              <div class="line"></div>
+
+  371                                  <div class="col col-md-5 text-end">
+  372:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  373                                  </div>
+
+  381                          <div class="con">
+  382:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  383:                             <h5><a href="room-details.html">Double Room</a></h5>
+  384                              <div class="line"></div>
+
+  394                                  <div class="col col-md-5 text-end">
+  395:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  396                                  </div>
+
+  404                          <div class="con">
+  405:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  406:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  407                              <div class="line"></div>
+
+  417                                  <div class="col col-md-5 text-end">
+  418:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  419                                  </div>
+
+  427                          <div class="con">
+  428:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  429:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  430                              <div class="line"></div>
+
+  440                                  <div class="col col-md-5 text-end">
+  441:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  442                                  </div>
+
+experience-1.html:
+  193                  <div class="col-md-3 offset-md-1">
+  194:                     <h6>Details</h6>
+  195                      <ul class="list-unstyled page-list mb-30">
+
+  255                                  <div class="butn-dark"> <a href="mailto:info@folladorprosecco.com"><span>Book</span></a>
+  256:                                     <a href="experience-1.html"><span>Details</span></a>
+  257                                  </div>
+
+  272                                  <div class="butn-dark"> <a href="mailto:info@folladorprosecco.com"><span>Book</span></a>
+  273:                                     <a href="experience-1.html"><span>Details</span></a>
+  274                                  </div>
+
+  302                                  <div class="butn-dark"> <a href="mailto:info@folladorprosecco.com"><span>Book</span></a>
+  303:                                     <a href="experience-1.html"><span>Details</span></a>
+  304                                  </div>
+
+experiences.html:
+  163                                  <p class="min-height-exp-body">Tasting of our 5 Valdobbiadene Prosecco Superiore DOCG.</p>
+  164:                                 <div class="butn-dark"> <a href="mailto:info@folladorprosecco.com"><span>Book</span></a>  <a href="experience-1.html"><span>Details</span></a> </div>
+  165                                  <!-- <ul class="list-unstyled list">
+
+  177                                  <p class="min-height-exp-body">Visit the winery and a guided tasting of 5 Valdobbiadene Prosecco Superiore DOCG.</p>
+  178:                                 <div class="butn-dark"> <a href="mailto:info@folladorprosecco.com"><span>Book</span></a>  <a href="experience-1.html"><span>Details</span></a> </div>
+  179                                  <!-- <ul class="list-unstyled list">
+
+  204                                  <p class="min-height-exp-body">Visit and the winery and the Rustico Hospitality in "Torri di Credazzo" for a guided tasting in the vineyards.</p>
+  205:                                 <div class="butn-dark"> <a href="mailto:info@folladorprosecco.com"><span>Book</span></a>  <a href="experience-1.html"><span>Details</span></a> </div>
+  206                                  <!-- <ul class="list-unstyled list">
+
+facilities.html:
+  59                              <li><a href='rooms3.html'>Rooms 3</a></li>
+  60:                             <li><a href='room-details.html'>Room Details</a></li>
+  61                          </ul>
+
+faq.html:
+  257                                      <div class="text">We use a certified SSL with the highest level of protection currently available for web browsing which is extended to all the pages of the website (128/256-bit Extended Validation SSL Certificate issued by Let's Encrypt Authority X3). In this way your personal data are always encrypted. You can check the authenticity of the security certificate of shop.folladorprosecco.com in the relevant protection section of the browser you use which is normally next to the address bar, on the page title or on the status bar.
+  258:                                         Information regarding payment, like the credit card details, do not pass through and are not processed/stored by shop.folladorprosecco.com because they are processed directly by the banking system.
+  259                                          Payment by PayPal ensures the consumer maximum protection and confidentiality.</div>
+
+index-22.html:
+  229                                  <div class="col col-md-5 text-end">
+  230:                                     <div class="permalink"><a href="torri_di_credazzo.html">Details <i
+  231                                                  class="ti-arrow-right"></i></a></div>
+
+  263                                  <div class="col col-md-5 text-end">
+  264:                                     <div class="permalink"><a href="torri_di_credazzo.html">Details <i
+  265                                                  class="ti-arrow-right"></i></a></div>
+
+  297                                  <div class="col col-md-5 text-end">
+  298:                                     <div class="permalink"><a href="torri_di_credazzo.html">Details <i
+  299                                                  class="ti-arrow-right"></i></a></div>
+
+  312                          <div class="con">
+  313:                             <!-- <h6><a href="room-details.html">300$ / Night</a></h6> -->
+  314:                             <h5><a href="room-details.html">Hat Box 3 bottles Valdobbiadene Prosecco Superiore
+  315                                      D.O.C.G.</a></h5>
+
+  324                                  <div class="col col-md-5 text-end">
+  325:                                     <div class="permalink"><a href="room-details.html">Details <i
+  326                                                  class="ti-arrow-right"></i></a></div>
+
+  336                          <div class="con">
+  337:                             <!-- <h6><a href="room-details.html">£150</a></h6> -->
+  338:                             <h5><a href="room-details.html">Kit VIP Valdobbiadene Prosecco Superiore D.O.C.G. with
+  339                                      free
+
+  351                                  <div class="col col-md-5 text-end">
+  352:                                     <div class="permalink"><a href="room-details.html">Details <i
+  353                                                  class="ti-arrow-right"></i></a></div>
+
+  386                                  <div class="butn-dark"> <a href="mailto:info@folladorprosecco.com"><span>Book</span></a>
+  387:                                     <a href="experience-1.html"><span>Details</span></a>
+  388                                  </div>
+
+  403                                  <div class="butn-dark"> <a href="mailto:info@folladorprosecco.com"><span>Book</span></a>
+  404:                                     <a href="experience-1.html"><span>Details</span></a>
+  405                                  </div>
+
+  433                                  <div class="butn-dark"> <a href="mailto:info@folladorprosecco.com"><span>Book</span></a>
+  434:                                     <a href="experience-1.html"><span>Details</span></a>
+  435                                  </div>
+
+index.html:
+  303                          <div class="con">
+  304:                             <h5><a href="room-details.html">Hat Box 3 bottiglie Valdobbiadene Prosecco Superiore
+  305                                      D.O.C.G.</a>
+
+  315                                  <div class="col col-md-5 text-end">
+  316:                                     <div class="permalink"><a href="room-details.html">Dettagli <i
+  317                                                  class="ti-arrow-right"></i></a></div>
+
+  327                          <div class="con">
+  328:                             <h5><a href="room-details.html">Kit VIP Valdobbiadene Prosecco Superiore D.O.C.G. con
+  329                                      secchiello
+
+  341                                  <div class="col col-md-5 text-end">
+  342:                                     <div class="permalink"><a href="room-details.html">Dettagli <i
+  343                                                  class="ti-arrow-right"></i></a></div>
+
+index5.html:
+  218                          <div class="con">
+  219:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  220:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  221                              <div class="line"></div>
+
+  231                                  <div class="col col-md-5 text-end">
+  232:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  233                                  </div>
+
+  241                          <div class="con">
+  242:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  243:                             <h5><a href="room-details.html">Family Room</a></h5>
+  244                              <div class="line"></div>
+
+  254                                  <div class="col col-md-5 text-end">
+  255:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  256                                  </div>
+
+  264                          <div class="con">
+  265:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  266:                             <h5><a href="room-details.html">Double Room</a></h5>
+  267                              <div class="line"></div>
+
+  277                                  <div class="col col-md-5 text-end">
+  278:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  279                                  </div>
+
+  287                          <div class="con">
+  288:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  289:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  290                              <div class="line"></div>
+
+  300                                  <div class="col col-md-5 text-end">
+  301:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  302                                  </div>
+
+  310                          <div class="con">
+  311:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  312:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  313                              <div class="line"></div>
+
+  323                                  <div class="col col-md-5 text-end">
+  324:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  325                                  </div>
+
+index6.html:
+   64                              <li><a href="rooms3.html" class="dropdown-item"><span>Rooms 3</span></a></li>
+   65:                             <li><a href="room-details.html" class="dropdown-item"><span>Room Details</span></a></li>
+   66                          </ul>
+
+  252                          <div class="con">
+  253:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  254:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  255                              <div class="line"></div>
+
+  265                                  <div class="col col-md-5 text-end">
+  266:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  267                                  </div>
+
+  275                          <div class="con">
+  276:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  277:                             <h5><a href="room-details.html">Family Room</a></h5>
+  278                              <div class="line"></div>
+
+  288                                  <div class="col col-md-5 text-end">
+  289:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  290                                  </div>
+
+  298                          <div class="con">
+  299:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  300:                             <h5><a href="room-details.html">Double Room</a></h5>
+  301                              <div class="line"></div>
+
+  311                                  <div class="col col-md-5 text-end">
+  312:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  313                                  </div>
+
+  321                          <div class="con">
+  322:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  323:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  324                              <div class="line"></div>
+
+  334                                  <div class="col col-md-5 text-end">
+  335:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  336                                  </div>
+
+  344                          <div class="con">
+  345:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  346:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  347                              <div class="line"></div>
+
+  357                                  <div class="col col-md-5 text-end">
+  358:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  359                                  </div>
+
+restaurant.html:
+  59                              <li><a href='rooms3.html'>Rooms 3</a></li>
+  60:                             <li><a href='room-details.html'>Room Details</a></li>
+  61                          </ul>
+
+archive/index2.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  228                              <h3>150$ <span>/ Night</span></h3>
+  229:                             <h4><a href="room-details.html">Junior Suite</a></h4>
+  230                              <p>Spacious, bright guestrooms with tasteful furnishing, wooden floor and panoramic windows from the ceiling to the floor.</p>
+
+  252                              <div class="info-wrapper">
+  253:                                 <div class="more"><a href="room-details.html" class="link-btn" tabindex="0">Details <i class="ti-arrow-right"></i></a></div>
+  254                                  <div class="butn-dark"> <a href="#" data-scroll-nav="1"><span>Book Now</span></a> </div>
+
+  261                              <h3>200$ <span>/ Night</span></h3>
+  262:                             <h4><a href="room-details.html">Family Room</a></h4>
+  263                              <p>Spacious, bright guestrooms with tasteful furnishing, wooden floor and panoramic windows from the ceiling to the floor.</p>
+
+  285                              <div class="info-wrapper">
+  286:                                 <div class="more"><a href="room-details.html" class="link-btn" tabindex="0">Details <i class="ti-arrow-right"></i></a></div>
+  287                                  <div class="butn-dark"> <a href="#" data-scroll-nav="1"><span>Book Now</span></a> </div>
+
+  294                              <h3>250$ <span>/ Night</span></h3>
+  295:                             <h4><a href="room-details.html">Double Room</a></h4>
+  296                              <p>Spacious, bright guestrooms with tasteful furnishing, wooden floor and panoramic windows from the ceiling to the floor.</p>
+
+  318                              <div class="info-wrapper">
+  319:                                 <div class="more"><a href="room-details.html" class="link-btn" tabindex="0">Details <i class="ti-arrow-right"></i></a></div>
+  320                                  <div class="butn-dark"> <a href="#" data-scroll-nav="1"><span>Book Now</span></a> </div>
+
+  327                              <h3>300$ <span>/ Night</span></h3>
+  328:                             <h4><a href="room-details.html">Deluxe Room</a></h4>
+  329                              <p>Spacious, bright guestrooms with tasteful furnishing, wooden floor and panoramic windows from the ceiling to the floor.</p>
+
+  351                              <div class="info-wrapper">
+  352:                                 <div class="more"><a href="room-details.html" class="link-btn" tabindex="0">Details <i class="ti-arrow-right"></i></a></div>
+  353                                  <div class="butn-dark"> <a href="#" data-scroll-nav="1"><span>Book Now</span></a> </div>
+
+archive/index3.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  254                                  </div>
+  255:                                 <div class="btn-line"><a href="room-details.html">Details</a></div>
+  256                              </div>
+
+  288                                  </div>
+  289:                                 <div class="btn-line"><a href="room-details.html">Details</a></div>
+  290                              </div>
+
+  322                                  </div>
+  323:                                 <div class="btn-line"><a href="room-details.html">Details</a></div>
+  324                              </div>
+
+  356                                  </div>
+  357:                                 <div class="btn-line"><a href="room-details.html">Details</a></div>
+  358                              </div>
+
+  390                                  </div>
+  391:                                 <div class="btn-line"><a href="room-details.html">Details</a></div>
+  392                              </div>
+
+  424                                  </div>
+  425:                                 <div class="btn-line"><a href="room-details.html">Details</a></div>
+  426                              </div>
+
+archive/index4.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  227                          <div class="con">
+  228:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  229:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  230                              <div class="line"></div>
+
+  240                                  <div class="col col-md-5 text-end">
+  241:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  242                                  </div>
+
+  248                          <div class="con">
+  249:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  250:                             <h5><a href="room-details.html">Family Room</a></h5>
+  251                              <div class="line"></div>
+
+  261                                  <div class="col col-md-5 text-end">
+  262:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  263                                  </div>
+
+  269                          <div class="con">
+  270:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  271:                             <h5><a href="room-details.html">Double Room</a></h5>
+  272                              <div class="line"></div>
+
+  282                                  <div class="col col-md-5 text-end">
+  283:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  284                                  </div>
+
+  290                          <div class="con">
+  291:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  292:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  293                              <div class="line"></div>
+
+  303                                  <div class="col col-md-5 text-end">
+  304:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  305                                  </div>
+
+  311                          <div class="con">
+  312:                             <h6><a href="room-details.html">350$ / Night</a></h6>
+  313:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  314                              <div class="line"></div>
+
+  324                                  <div class="col col-md-5 text-end">
+  325:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  326                                  </div>
+
+  332                          <div class="con">
+  333:                             <h6><a href="room-details.html">400$ / Night</a></h6>
+  334:                             <h5><a href="room-details.html">Wellness Room</a></h5>
+  335                              <div class="line"></div>
+
+  345                                  <div class="col col-md-5 text-end">
+  346:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  347                                  </div>
+
+archive/index6.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  258                          <div class="con">
+  259:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  260:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  261                              <div class="line"></div>
+
+  271                                  <div class="col col-md-5 text-end">
+  272:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  273                                  </div>
+
+  281                          <div class="con">
+  282:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  283:                             <h5><a href="room-details.html">Family Room</a></h5>
+  284                              <div class="line"></div>
+
+  294                                  <div class="col col-md-5 text-end">
+  295:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  296                                  </div>
+
+  304                          <div class="con">
+  305:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  306:                             <h5><a href="room-details.html">Double Room</a></h5>
+  307                              <div class="line"></div>
+
+  317                                  <div class="col col-md-5 text-end">
+  318:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  319                                  </div>
+
+  327                          <div class="con">
+  328:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  329:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  330                              <div class="line"></div>
+
+  340                                  <div class="col col-md-5 text-end">
+  341:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  342                                  </div>
+
+  350                          <div class="con">
+  351:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  352:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  353                              <div class="line"></div>
+
+  363                                  <div class="col col-md-5 text-end">
+  364:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  365                                  </div>
+
+archive/index8.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  195                          <div class="con">
+  196:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  197:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  198                              <div class="line"></div>
+
+  208                                  <div class="col col-md-5 text-end">
+  209:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  210                                  </div>
+
+  218                          <div class="con">
+  219:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  220:                             <h5><a href="room-details.html">Family Room</a></h5>
+  221                              <div class="line"></div>
+
+  231                                  <div class="col col-md-5 text-end">
+  232:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  233                                  </div>
+
+  241                          <div class="con">
+  242:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  243:                             <h5><a href="room-details.html">Double Room</a></h5>
+  244                              <div class="line"></div>
+
+  254                                  <div class="col col-md-5 text-end">
+  255:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  256                                  </div>
+
+  264                          <div class="con">
+  265:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  266:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  267                              <div class="line"></div>
+
+  277                                  <div class="col col-md-5 text-end">
+  278:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  279                                  </div>
+
+  287                          <div class="con">
+  288:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  289:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  290                              <div class="line"></div>
+
+  300                                  <div class="col col-md-5 text-end">
+  301:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  302                                  </div>
+
+archive/index9.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  259                          <div class="con">
+  260:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  261:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  262                              <div class="line"></div>
+
+  272                                  <div class="col col-md-5 text-end">
+  273:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  274                                  </div>
+
+  282                          <div class="con">
+  283:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  284:                             <h5><a href="room-details.html">Family Room</a></h5>
+  285                              <div class="line"></div>
+
+  295                                  <div class="col col-md-5 text-end">
+  296:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  297                                  </div>
+
+  305                          <div class="con">
+  306:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  307:                             <h5><a href="room-details.html">Double Room</a></h5>
+  308                              <div class="line"></div>
+
+  318                                  <div class="col col-md-5 text-end">
+  319:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  320                                  </div>
+
+  328                          <div class="con">
+  329:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  330:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  331                              <div class="line"></div>
+
+  341                                  <div class="col col-md-5 text-end">
+  342:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  343                                  </div>
+
+  351                          <div class="con">
+  352:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  353:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  354                              <div class="line"></div>
+
+  364                                  <div class="col col-md-5 text-end">
+  365:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  366                                  </div>
+
+archive/index10.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  249                          <div class="con">
+  250:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  251:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  252                              <div class="line"></div>
+
+  262                                  <div class="col col-md-5 text-end">
+  263:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  264                                  </div>
+
+  272                          <div class="con">
+  273:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  274:                             <h5><a href="room-details.html">Family Room</a></h5>
+  275                              <div class="line"></div>
+
+  285                                  <div class="col col-md-5 text-end">
+  286:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  287                                  </div>
+
+  295                          <div class="con">
+  296:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  297:                             <h5><a href="room-details.html">Double Room</a></h5>
+  298                              <div class="line"></div>
+
+  308                                  <div class="col col-md-5 text-end">
+  309:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  310                                  </div>
+
+  318                          <div class="con">
+  319:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  320:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  321                              <div class="line"></div>
+
+  331                                  <div class="col col-md-5 text-end">
+  332:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  333                                  </div>
+
+  341                          <div class="con">
+  342:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  343:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  344                              <div class="line"></div>
+
+  354                                  <div class="col col-md-5 text-end">
+  355:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  356                                  </div>
+
+archive/index11.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  182                          <div class="con">
+  183:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  184:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  185                              <div class="line"></div>
+
+  195                                  <div class="col col-md-5 text-end">
+  196:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  197                                  </div>
+
+  205                          <div class="con">
+  206:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  207:                             <h5><a href="room-details.html">Family Room</a></h5>
+  208                              <div class="line"></div>
+
+  218                                  <div class="col col-md-5 text-end">
+  219:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  220                                  </div>
+
+  228                          <div class="con">
+  229:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  230:                             <h5><a href="room-details.html">Double Room</a></h5>
+  231                              <div class="line"></div>
+
+  241                                  <div class="col col-md-5 text-end">
+  242:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  243                                  </div>
+
+  251                          <div class="con">
+  252:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  253:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  254                              <div class="line"></div>
+
+  264                                  <div class="col col-md-5 text-end">
+  265:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  266                                  </div>
+
+  274                          <div class="con">
+  275:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  276:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  277                              <div class="line"></div>
+
+  287                                  <div class="col col-md-5 text-end">
+  288:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  289                                  </div>
+
+archive/index12.html:
+  338                          <div class="con">
+  339:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  340:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  341                              <div class="line"></div>
+
+  351                                  <div class="col col-md-5 text-end">
+  352:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  353                                  </div>
+
+  361                          <div class="con">
+  362:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  363:                             <h5><a href="room-details.html">Family Room</a></h5>
+  364                              <div class="line"></div>
+
+  374                                  <div class="col col-md-5 text-end">
+  375:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  376                                  </div>
+
+  384                          <div class="con">
+  385:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  386:                             <h5><a href="room-details.html">Double Room</a></h5>
+  387                              <div class="line"></div>
+
+  397                                  <div class="col col-md-5 text-end">
+  398:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  399                                  </div>
+
+  407                          <div class="con">
+  408:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  409:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  410                              <div class="line"></div>
+
+  420                                  <div class="col col-md-5 text-end">
+  421:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  422                                  </div>
+
+  430                          <div class="con">
+  431:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  432:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  433                              <div class="line"></div>
+
+  443                                  <div class="col col-md-5 text-end">
+  444:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  445                                  </div>
+
+archive/index14.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  129                          <div class="grid-item">
+  130:                             <a href="room-details.html" class="grid-con">
+  131                                  <span class="book">Book</span>
+
+  138                          <div class="grid-item">
+  139:                             <a href="room-details.html" class="grid-con">
+  140                                  <span class="book">Book</span>
+
+  147                          <div class="grid-item">
+  148:                             <a href="room-details.html" class="grid-con">
+  149                                  <span class="book">Book</span>
+
+  156                          <div class="grid-item">
+  157:                             <a href="room-details.html" class="grid-con">
+  158                                  <span class="book">Book</span>
+
+  165                          <div class="grid-item">
+  166:                             <a href="room-details.html" class="grid-con">
+  167                                  <span class="book">Book</span>
+
+  174                          <div class="grid-item">
+  175:                             <a href="room-details.html" class="grid-con">
+  176                                  <span class="book">Book</span>
+
+  183                          <div class="grid-item">
+  184:                             <a href="room-details.html" class="grid-con">
+  185                                  <span class="book">Book</span>
+
+  192                          <div class="grid-item">
+  193:                             <a href="room-details.html" class="grid-con">
+  194                                  <span class="book">Book</span>
+
+  201                          <div class="grid-item">
+  202:                             <a href="room-details.html" class="grid-con">
+  203                                  <span class="book">Book</span>
+
+  265                          <div class="con">
+  266:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  267:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  268                              <div class="line"></div>
+
+  278                                  <div class="col col-md-5 text-end">
+  279:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  280                                  </div>
+
+  288                          <div class="con">
+  289:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  290:                             <h5><a href="room-details.html">Family Room</a></h5>
+  291                              <div class="line"></div>
+
+  301                                  <div class="col col-md-5 text-end">
+  302:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  303                                  </div>
+
+  311                          <div class="con">
+  312:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  313:                             <h5><a href="room-details.html">Double Room</a></h5>
+  314                              <div class="line"></div>
+
+  324                                  <div class="col col-md-5 text-end">
+  325:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  326                                  </div>
+
+  334                          <div class="con">
+  335:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  336:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  337                              <div class="line"></div>
+
+  347                                  <div class="col col-md-5 text-end">
+  348:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  349                                  </div>
+
+  357                          <div class="con">
+  358:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  359:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  360                              <div class="line"></div>
+
+  370                                  <div class="col col-md-5 text-end">
+  371:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  372                                  </div>
+
+archive/index15.html:
+   56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+   57:                             <li><a href='room-details.html'>Room Details</a></li>
+   58                          </ul>
+
+  129                          <div class="grid-item">
+  130:                             <a href="room-details.html" class="grid-con">
+  131                                  <span class="book">Book</span>
+
+  138                          <div class="grid-item">
+  139:                             <a href="room-details.html" class="grid-con">
+  140                                  <span class="book">Book</span>
+
+  147                          <div class="grid-item">
+  148:                             <a href="room-details.html" class="grid-con">
+  149                                  <span class="book">Book</span>
+
+  156                          <div class="grid-item">
+  157:                             <a href="room-details.html" class="grid-con">
+  158                                  <span class="book">Book</span>
+
+  165                          <div class="grid-item">
+  166:                             <a href="room-details.html" class="grid-con">
+  167                                  <span class="book">Book</span>
+
+  174                          <div class="grid-item">
+  175:                             <a href="room-details.html" class="grid-con">
+  176                                  <span class="book">Book</span>
+
+  183                          <div class="grid-item">
+  184:                             <a href="room-details.html" class="grid-con">
+  185                                  <span class="book">Book</span>
+
+  192                          <div class="grid-item">
+  193:                             <a href="room-details.html" class="grid-con">
+  194                                  <span class="book">Book</span>
+
+  201                          <div class="grid-item">
+  202:                             <a href="room-details.html" class="grid-con">
+  203                                  <span class="book">Book</span>
+
+  262                          <div class="con">
+  263:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  264:                             <h5><a href="room-details.html">Junior Suite</a> </h5>
+  265                              <div class="line"></div>
+
+  275                                  <div class="col col-md-5 text-end">
+  276:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  277                                  </div>
+
+  285                          <div class="con">
+  286:                             <h6><a href="room-details.html">200$ / Night</a></h6>
+  287:                             <h5><a href="room-details.html">Family Room</a></h5>
+  288                              <div class="line"></div>
+
+  298                                  <div class="col col-md-5 text-end">
+  299:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  300                                  </div>
+
+  308                          <div class="con">
+  309:                             <h6><a href="room-details.html">250$ / Night</a></h6>
+  310:                             <h5><a href="room-details.html">Double Room</a></h5>
+  311                              <div class="line"></div>
+
+  321                                  <div class="col col-md-5 text-end">
+  322:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  323                                  </div>
+
+  331                          <div class="con">
+  332:                             <h6><a href="room-details.html">300$ / Night</a></h6>
+  333:                             <h5><a href="room-details.html">Deluxe Room</a></h5>
+  334                              <div class="line"></div>
+
+  344                                  <div class="col col-md-5 text-end">
+  345:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  346                                  </div>
+
+  354                          <div class="con">
+  355:                             <h6><a href="room-details.html">150$ / Night</a></h6>
+  356:                             <h5><a href="room-details.html">Superior Room</a></h5>
+  357                              <div class="line"></div>
+
+  367                                  <div class="col col-md-5 text-end">
+  368:                                     <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
+  369                                  </div>
+
+archive/news2.html:
+  59                              <li><a href='rooms3.html'>Rooms 3</a></li>
+  60:                             <li><a href='room-details.html'>Room Details</a></li>
+  61                          </ul>
+
+archive/pricing.html:
+  56                              <li><a href='rooms3.html'>Rooms 3</a></li>
+  57:                             <li><a href='room-details.html'>Room Details</a></li>
+  58                          </ul>
+
+js/bootstrap.min.js:
+  5    */
+  6: ⟪ 837 characters skipped ⟫ing"==typeof t&&t.length>0?document.querySelector(n(t)):null,l=t=>{if(!r(t)||0===t.getClientRects().length)return!1;const e="visible"===getComputedStyle(t).getPropertyValue("visibility"),s=t.closest("details:not([open])");if(!s)return e;if(s!==t){const e=t.closest("summary");if(e&&e.parentNode!==s)return!1;if(null===e)return!1}return e},c=t=>!t||t.nodeType!==Node.ELEMENT_NODE||!!t.classList.contains("disabled")||(void 0!==t.disabled?t.disabled:t.hasAttribute("disabled")&&"false"!==t.getAttribute("disabled")),h=t=>{if(!document.documentElement.attachShadow)return null;if("function"==typeof t.getRootNode){const e=t.getRootNode();return e instanceof ShadowRoot?e:null}return t instanceof ShadowRoot?t:t.parentNode?h(t.parentNode):null},d=()=>{},u=t=>{t.offsetHeight},_=()=>window.jQuery&&!document.body.hasAttribute("data-bs-no-jquery")?window.jQuery:null,g=[],f=()=>"rtl"===document.documentElement.dir,m=t=>{var e;e=()=>{const e=_();if(e){const s=t.NAME,i=e.fn[s];e.fn[s]=t.jQueryInterface,e.fn[s].Constructor=t,e.fn[s].noConflict=()=>(e.fn[s]=i,t.jQueryInterface)}},"loading"===document.readyState?(g.length||document.addEventListener("DOMContentLoaded",(()=>{for(const t of g)t()})),g.push(e⟪ 7137 characters skipped ⟫ementSibling}return[]},next(t,e){let s=t.nextElementSibling;for(;s;){if(s.matches(e))return[s];s=s.nextElementSibling}return[]},focusableChildren(t){const e=["a","button","input","textarea","select","details","[tabindex]",'[contenteditable="true"]'].map((t=>`${t}:not([tabindex^="-"])`)).join(",");return this.find(e,t).filter((t=>!c(t)&&l(t)))},getSelectorFromElement(t){const e=R(t);return e&&V.findOne(e)?e:null},getElementFromSelector(t){const e=R(t);return e?V.findOne(e):null},getMultipleElementsFromSelector(t){const e=R(t);return e?V.find(e):[]}},K=(t,e="hide")=>{const s=`click.dismiss${t.EVENT_KEY}`,i=t.NAME;M.on(document,s,`[data-bs-dismiss="${i}"]`,(function(s){if(["A","AREA"].includes(this.tagName)&&s.preventDefault(),c(this))return;const n=V.getElementFromSelector(this)||this.closest(`.${i}`);t.getOrCreateInstance(n)[e]()}))};class Q extends W{static get NAME(){return"alert"}close(){if(M.trigger(this._element,"close.bs.alert").defaultPrevented)return;this._element.classList.remove("show");const t=this._element.classList.contains("fade");this._queueCallback((()=>this._destroyElement()),this._element,t)}_destroyElement(){this._element.remove(),M.trigger(this._element,"closed.b
+  7  //# sourceMappingURL=bootstrap.min.js.map
+
+js/custom.js:
+  725  
+  726:     function showDetails() {
+  727:         // Add your details logic here
+  728:         console.log('Details link clicked');
+  729        }
+
+  753      
+  754:     function showDetails() {
+  755:         // Add your logic for showing details here
+  756:         console.log('Details clicked');
+  757          // You might want to open a modal or navigate to another page
+
+js/modernizr-2.6.2.min.js:
+  3   */
+  4: ⟪ 10143 characters skipped ⟫undefined"||typeof a.createDocumentFragment=="undefined"||typeof a.createElement=="undefined"}()}catch(c){f=!0,j=!0}})();var r={elements:c.elements||"abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output progress section summary time video",shivCSS:c.shivCSS!==!1,supportsUnknownElements:j,shivMethods:c.shivMethods!==!1,type:"default",shivDocument:q,createElement:n,createDocumentFragment:o};a.html5=r,q(b)}(this,b),e._version=d,e._prefixes=n,e._domPrefixes=q,e._cssomPrefixes=p,e.mq=z,e.hasEvent=A,e.testProp=function(a){return H([a])},e.testAllProps=J,e.testStyles=y,e.prefixed=function(a,b,c){return b?J(a,b,c):J(a,"pfx")},g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+v.join(" "):""),e}(this,this.document),function(a,b,c){function d(a){return"[object Function]"==o.call(a)}function e(a){return"string"==typeof a}function f(){}function g(a){return!a||"loaded"==a||"complete"==a||"uninitialized"==a}function h(){var a=p.shift();q=1,a?a.t?m(function(){("c"==a.t?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.
