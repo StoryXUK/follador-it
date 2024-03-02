@@ -5,7 +5,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Follador</title>
+    <!-- description -->
+    <meta name="description" content="All the latest news from Follador">
+    <!-- keywords -->
+    <meta name="keywords"
+        content="Prosecco, Follador Prosecco, Treviso, Wine, Italy, Valdobbiadene Prosecco Superiore DOCG, Prosecco DOC Treviso, blog, news">
+    <title>Follador Prosecco | News</title>
+    <meta property="og:image" content="img/preview/teritory.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap">
@@ -14,6 +24,19 @@
 </head>
 
 <body>
+    <!-- age verification -->
+    <div id="ageVerificationModal" class="modal">
+        <div class="modal-content">
+            <p>Are you 18 years or older?</p>
+            <button onclick="verifyAge()">Yes</button>
+            <button onclick="declineAge()">No</button>
+        </div>
+    </div>
+
+
+
+
+
     <!-- Preloader -->
     <div class="preloader-bg"></div>
     <div id="preloader">
@@ -36,63 +59,72 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
 
-                    <!-- <li><a href="about.html">Chi siamo</a></li> -->
+                    <!-- <li><a href="about.html">About</a></li> -->
 
-                    <li><a href="all-prosecco.html">I Nostri Vini</a></li>
+
+
+                    <li><a href="all-prosecco.html">Our Wines</a></li>
 
                     <!-- <li class="cappa-menu-sub"><a href="prosecco.html">Prosecco <i class="ti-angle-down"></i></a>
-                    <ul>
-                        <li><a href="torre-do-credazzo.html">Torre Do Credazzo</a></li>
-                        <li><a href="prosecco.html">Valdobbiadene Superiore DOCG</a></li>
-                        <li><a href="prosecco.html">Prosecco DOC Treviso</a></li>
-                        <li><a href="prosecco.html">Frizzanti Prosecco DOC</a></li>
-                    </ul>
-                </li> -->
-
-                    <li class="cappa-menu-sub"><a href="#">La Tenuta <i class="ti-angle-down"></i></a>
                         <ul>
-                            <li><a href="gallery.html">Galleria</a></li>
-                            <li><a href="region.html">Regione</a></li>
-                            <li><a href="winery.html">Cantina</a></li>
-                            <!-- <li><a href="vineyards.html">Vigneti</a></li> -->
+                            <li><a href="torre-do-credazzo.html">Torre Do Credazzo</a></li>
+                            <li><a href="prosecco.html">Valdobbiadene Superiore DOCG</a></li>
+                            <li><a href="prosecco.html">Prosecco DOC Treviso</a></li>
+                            <li><a href="prosecco.html">Frizzanti Prosecco DOC</a></li>
+
+                        </ul>
+                    </li> -->
+
+                    <li class="cappa-menu-sub"><a href="#">The Estate <i class="ti-angle-down"></i></a>
+                        <ul>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="region.html">Region</a></li>
+
+                            <li><a href="winery.html">Winery</a></li>
+                            <!-- <li><a href="vineyards.html">Vineyards</a></li> -->
                             <li><a href="unesco.html">UNESCO</a></li>
+
                         </ul>
                     </li>
 
-                    <li class="cappa-menu-sub"><a href="#">La Nostra Storia <i class="ti-angle-down"></i></a>
+                    <li class="cappa-menu-sub"><a href="#">Our Heritage <i class="ti-angle-down"></i></a>
                         <ul>
-                            <li><a href="heritage.html">Storia</a></li>
-                            <li><a href="family.html">Famiglia Follador</a></li>
+                            <li><a href="heritage.html">Heritage</a></li>
+                            <li><a href="family.html">Follador Family</a></li>
+
                         </ul>
                     </li>
 
-                    <li><a href="experiences.html">Esperienze Enogastronomiche</a></li>
+                    <li><a href="experiences.html">Wine Experiences</a></li>
 
-                    <li class="cappa-menu-sub"><a href="#">Azienda <i class="ti-angle-down"></i></a>
+                    <li class="cappa-menu-sub"><a href="#">Company <i class="ti-angle-down"></i></a>
                         <ul>
-                            <li><a href="about.html">Chi Siamo</a></li>
-                            <li><a href="sustainability.html">Sostenibilità</a></li>
-                            <li><a href="world.html">In Giro per il Mondo</a></li>
+                            <li><a href="about.html">About </a></li>
+                            <li><a href="sustainability.html">Sustainability </a></li>
+                            <li><a href="world.html">Around The World</a></li>
                             <!-- <li><a href="team.html">Team</a></li> -->
-                            <!-- <li><a href="careers.html">Lavora con Noi</a></li> -->
-                            <!-- <li><a href="news.html">Novità</a></li> -->
+                            <!-- <li><a href="careers.html">Careers</a></li> -->
+                            <li><a href="news.html">News</a></li>
+
                         </ul>
                     </li>
 
-                    <li><a target="_blank" href="https://shop.folladorprosecco.com/">VISITA LO SHOP</a></li>
-                    <li><a href="contact.html">Contatti</a></li>
+                    <!-- <li><a href="news.html">News</a></li> -->
+                    <li><a target="_blank" href="https://shop.en.folladorprosecco.com/">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
 
             <section class="cappa-menu-footer">
                 <div class="nav-language"> <i class="lni ti-world"></i>
                     <select onchange="location = this.value;">
-                        <option value="#0">Lingua</option>
-                        <option value="https://folladorprosecco.com/news.html">Inglese</option>
-                        <option value="#0">Italiano</option>
+                        <option value="#0">Language</option>
+                        <option value="#0">English</option>
+                        <option value="https://folladorprosecco.it/news.html">Italian</option>
                     </select>
                 </div>
             </section>
+
         </div>
     </nav>
     <!-- Logo & Menu Burger -->
@@ -101,7 +133,7 @@
             <div class="row align-items-center">
                 <!-- Logo -->
                 <div class="col-6 col-md-6 cappa-logo-wrap">
-                    <a href="index.html" class="cappa-logo"><img src="img/logo.png" alt="Logo Follador"></a>
+                    <a href="index.html" class="cappa-logo"><img src="img/logo.png" alt="Follador Logo"></a>
                 </div>
                 <!-- Menu Burger -->
                 <div class="col-6 col-md-6 text-right cappa-wrap-burger-wrap"> <a href="#"
@@ -116,10 +148,7 @@
 
 
 
-
-
-
-
+    <!-- ////////////////////////////////// Header End ////////////////////////////////// -->
 
 
 
@@ -160,9 +189,9 @@
                                 </div>
                             </div>
                             <div class="con"> <span class="category">
-                                    <a href="news.html">Spa</a>
+                                    <a href="news.html">Prosecco</a>
                                 </span>
-                                <h5><a href="post.html">Benefits of Spa Treatments</a></h5>
+                                <h5><a href="post.html">Benefits of Prosecco</a></h5>
                             </div>
                         </div>
                 </div>
@@ -174,9 +203,9 @@
                                 </div>
                             </div>
                             <div class="con"> <span class="category">
-                                    <a href="news.html">Bathrooms</a>
+                                    <a href="news.html">Sustainability</a>
                                 </span>
-                                <h5><a href="post.html">Hotel Bathroom Collections</a></h5>
+                                <h5><a href="post.html">Good for the planet</a></h5>
                             </div>
                         </div>
                 </div>
@@ -189,9 +218,9 @@
                             </div>
                             <div class="con"> 
                                 <span class="category">
-                                    <a href="news.html">Health</a>
+                                    <a href="news.html">Team</a>
                                 </span>
-                                <h5><a href="post.html">Weight Loss with Fitness Health Club</a></h5>
+                                <h5><a href="post.html">The best team</a></h5>
                             </div>
                         </div>
                 </div>
@@ -203,9 +232,9 @@
                                 </div>
                             </div>
                             <div class="con"> <span class="category">
-                                    <a href="news.html">Design</a>
+                                    <a href="news.html">Award winning</a>
                                 </span>
-                                <h5><a href="post.html">Retro Lighting Design in The Hotels</a></h5>
+                                <h5><a href="post.html">Double gold</a></h5>
                             </div>
                         </div>
                 </div>
@@ -217,9 +246,9 @@
                                 </div>
                             </div>
                             <div class="con"> <span class="category">
-                                    <a href="news.html">Health</a>
+                                    <a href="news.html">Vento</a>
                                 </span>
-                                <h5><a href="post.html">Benefits of Swimming for Your Health</a></h5>
+                                <h5><a href="post.html">Something about the region</a></h5>
                             </div>
                         </div>
                 </div>
@@ -239,6 +268,29 @@
         </div>
     </section>
     
+
+
+
+    <!-- Services -->
+    <section class="services section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="img left">
+                        <a href="poc.html"><img src="img/home/logo-poc.jpeg" alt="EU logo"></a>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="img left">
+                        <a href="poc.html"><img src="img/home/POC.png" alt="POC logo"></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -267,7 +319,7 @@
                             <div class="footer-language"> <i class="lni ti-world"></i>
                                 <select onchange="location = this.value;">
                                     <option value="#0">English</option>
-                                    <option value="#0">Italian</option>
+                                    <option value="https://folladorprosecco.it/">Italian</option>
                                 </select>
                             </div>
                         </div>
@@ -277,17 +329,18 @@
                             <h3 class="footer-title">Explore</h3>
                             <ul class="footer-explore-list list-unstyled">
                                 <li><a href="index.html">UNESCO</a></li>
-                                <li><a href="index.html">Sustainability</a></li>
-                                <li><a href="index.html">The Heritage</a></li>
-                                <li><a href="index.html">Media Kit</a></li>
+                                <li><a href="sustainability.html">Sustainability</a></li>
+                                <li><a href="heritage.html">The Heritage</a></li>
+                                <li><a href="media-kit.html">Media Kit</a></li>
                                 <li><a href="faq.html">FAQ's</a></li>
+                                <li><a href="site-map.html">Site Map</a></li>
 
                             </ul>
                             <h3 class="footer-title">Legal</h3>
                             <ul class="footer-explore-list list-unstyled">
-                                <li><a href="index.html">Privacy Policy</a></li>
-                                <li><a href="index.html">Terms & Conditions</a></li>
-                                <li><a href="index.html">Cookie Policy</a></li>
+                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                <li><a href="terms.html">Terms & Conditions</a></li>
+                                <li><a href="cookies.html">Cookie Policy</a></li>
 
                             </ul>
                         </div>
@@ -301,14 +354,20 @@
 
                             </p>
                             <div class="footer-contact-info">
-                                <p class="footer-contact-phone"><span class="flaticon-call"></span> +390438898222</p>
-                                <p class="footer-contact-mail"> info@folladorprosecco.com</p>
+                                <p class="footer-contact-phone"><span class="flaticon-call"></span><a
+                                        href="tel:+390438898222">+390438898222</a></p>
+                                <p class="footer-contact-mail"> <a
+                                        href="mailto:info@folladorprosecco.com">info@folladorprosecco.com</a></p>
                             </div>
                             <div class="footer-about-social-list">
-                                <a href="#"><i class="ti-instagram"></i></a>
-                                <a href="#"><i class="ti-linkedin"></i></a>
-                                <a href="#"><i class="ti-youtube"></i></a>
-                                <a href="#"><i class="ti-facebook"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/proseccofollador/"><i
+                                        class="ti-instagram"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/company/follador-prosecco-dal-1769"><i
+                                        class="ti-linkedin"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCIMqqfRoUlIQ2QfezR2aN-w"><i
+                                        class="ti-youtube"></i></a>
+                                <a target="_blank" href="https://www.facebook.com/folladorprosecco"><i
+                                        class="ti-facebook"></i></a>
 
                             </div>
                         </div>
@@ -316,13 +375,15 @@
                 </div>
             </div>
         </div>
+
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="footer-bottom-inner">
-                            <p class="footer-bottom-copy-right">© Copyright 2024 Follodor Prosecco | Website made with
-                                &#128154; by <a href="https://story-x.co.uk/">StoryX</a></p>
+                            <p class="footer-bottom-copy-right">© Copyright 2024 Follodor Prosecco | Website made
+                                with
+                                &#9825; by <a href="https://story-x.co.uk/">StoryX</a></p>
                         </div>
                     </div>
                 </div>
