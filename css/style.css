@@ -2282,6 +2282,11 @@ hr {
     height: 60vh;
 }
 
+.banner-header.two-thirds-height {
+    min-height: 80vh;
+    background-position: center;
+}
+
 .banner-header.full-height {
     min-height: 100vh;
     background-position: center;
