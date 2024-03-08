@@ -6577,4 +6577,5 @@ button {
 
 .video_text_home {font-size: 45px !important;}
 
-.trademark {font-size: 16px !important;}
+.trademark {font-size: 16px !important;
+    line-height: 30px;}
