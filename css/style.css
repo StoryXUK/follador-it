@@ -6550,15 +6550,7 @@ button {
 }
 
 
-/* Styles for smaller screens (phones) */
-@media screen and (max-width: 1000px) {
 
-    /* Hide the element on screens smaller than a tablet */
-    .element-to-hide {
-        display: none;
-    }
-    .video_text_home {font-size: 30px !important;}
-}
 
 
 
@@ -6587,7 +6579,7 @@ button {
 
 
 
-.video_text_home {font-size: 45px !important;}
+.video_text_home {font-size: 38px !important;}
 
 .trademark {font-size: 24px !important;
     line-height: 24px;
