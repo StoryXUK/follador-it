@@ -6546,6 +6546,18 @@ button {
     .element-to-hide {
         display: none;
     }
+    
+}
+
+
+/* Styles for smaller screens (phones) */
+@media screen and (max-width: 1000px) {
+
+    /* Hide the element on screens smaller than a tablet */
+    .element-to-hide {
+        display: none;
+    }
+    .video_text_home {font-size: 30px !important;}
 }
 
 
