@@ -1,7 +1,7 @@
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         # FIX: Replace this email with recipient email
-        $mail_to = "info@yourmail.com";
+        $mail_to = "james@story-x.co.uk";
         # Sender Data
         $subject = trim($_POST["subject"]);
         $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
@@ -17,8 +17,7 @@
         # Mail Content
         $content = "Name: $name\n";
         $content .= "Email: $email\n\n";
-        $content .= "Phone: $phone\n";
-        $content .= "Message:\n$message\n";
+        
         # email headers.
         $headers = "From: $name <$email>";
         # Send the email.
