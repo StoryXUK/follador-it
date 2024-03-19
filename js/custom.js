@@ -820,3 +820,17 @@ window.onload = function() {
    
     includeFooter();
 };
+
+
+function toggleIframes() {
+    var iframe1 = document.getElementById("iframe1");
+    var iframe2 = document.getElementById("iframe2");
+
+    if (iframe1.style.display === "none") {
+      iframe1.style.display = "block";
+      iframe2.style.display = "none";
+    } else {
+      iframe1.style.display = "none";
+      iframe2.style.display = "block";
+    }
+  }
