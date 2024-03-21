@@ -6546,7 +6546,7 @@ button {
     .element-to-hide {
         display: none;
     }
-    
+
 }
 
 
@@ -6579,18 +6579,29 @@ button {
 
 
 
-.video_text_home {font-size: 38px !important;}
+.video_text_home {
+    font-size: 38px !important;
+}
 
-.trademark {font-size: 24px !important;
+.trademark {
+    font-size: 24px !important;
     line-height: 24px;
-    vertical-align: top;}
+    vertical-align: top;
+}
 
 
 
-    .iframe-container {
-        display: none;
-      }
+.iframe-container {
+    display: none;
+}
 
-      #iframe1 {
-        display: block;
-      }
+#iframe1 {
+    display: block;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .iframe-mobile {
+        height: 1005 !important;}}
