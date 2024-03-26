@@ -932,8 +932,22 @@ blockquote cite:before {
     line-height: 1.25em;
 }
 
+.section-title-trademark {
+    font-size: 42px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+    color: #222;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.25em;
+}
+
 .section-title span {
     color: #fff;
+}
+
+.section-title-trademark span {
+    color: #222;
 }
 
 
