@@ -1,0 +1,63 @@
+app-divinea>#divinea-wrapper app-homepage#divinea *{
+       font-family: 'Barlow', sans-serif !important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea dp-day-calendar.dp-material .dp-selected {
+    background: #ab8a62 !Important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea .divinea-container{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea dp-day-calendar.dp-material .dp-current-day {
+    border: 1px solid #ab8a62  !Important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea .checkout-wrapper .right>.content>.coupon button.special-button{
+  background-color: transparent !important;
+  border:none !important;
+  color:  #ab8a62 !important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected, app-divinea>#divinea-wrapper app-homepage#divinea .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected.ng-option-marked {
+    background-color: #ab8a62 !Important;
+    color:#fff !important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea ng-select.inline .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected .ng-option-label {
+    background-color: #ab8a62 !important;
+    color:#fff !important;
+    }
+ app-divinea>#divinea-wrapper app-homepage#divinea .experience-box>div.content>.title{
+    color: #ab8a62  !important;
+}
+.ng-fa-icon svg{
+    color: #ab8a62 !important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea .switcher input+label {
+    background: #ab8a62 !important;
+    color:#fff !important;
+    /* font-size: 16px !important; */
+    }
+app-divinea>#divinea-wrapper app-homepage#divinea .primary {
+    color: #ab8a62  !important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea .experience-box>div.content>.information-group-top>.title {
+    color: #ab8a62  !important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea .btn.btn-primary{
+background: #ab8a62 !important;
+color:#fff !important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea a {
+    color: #ab8a62 !important;
+}
+app-divinea>#divinea-wrapper app-homepage#divinea .switcher input:before,app-divinea>#divinea-wrapper app-homepage#divinea .switcher input:after {
+    font-size: 14px !important;
+}
+@media screen and (min-width: 768px){
+app-divinea>#divinea-wrapper app-homepage#divinea .experience-detail-wrapper .left>.summary>div:first-child {
+    width: 130px !important;
+}
+}
+@media (max-width: 420px){
+app-divinea>#divinea-wrapper app-homepage#divinea .experience-detail-wrapper .left .left-responsive {
+    max-width: calc(100% - 0px) !important;
+}
+}
