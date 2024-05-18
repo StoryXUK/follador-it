@@ -4626,7 +4626,26 @@ button.mfp-arrow {
     color: #aa8453;
 }
 
+
+.pricing-card .amountline {
+    margin: 0;
+    line-height: 1;
+    font-family: 'Gilda Display', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #666;
+    text-decoration: line-through;
+}
+
+
+
 .pricing-card .amount span {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: #666;
+}
+
+.pricing-card .amountline span {
     font-family: 'Barlow', sans-serif;
     font-size: 15px;
     color: #666;
