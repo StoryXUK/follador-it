@@ -269,6 +269,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/navigation.js"></script>
+    <script>
+        function updateBackgroundImage() {
+            const header = document.querySelector('.banner-header');
+            if (window.innerWidth < 768) {
+                header.setAttribute('data-background', 'img/slider/our_wines_joani.jpg');
+            } else {
+                header.setAttribute('data-background', 'img/slider/our_wines_joani_sm.jpg');
+            }
+            // Apply the background image change
+            header.style.backgroundImage = `url(${header.getAttribute('data-background')})`;
+        }
+    
+        window.addEventListener('resize', updateBackgroundImage);
+        window.addEventListener('load', updateBackgroundImage);
+    </script>
 </body>
 
 </html>
