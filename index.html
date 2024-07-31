@@ -14,6 +14,22 @@
     <meta name="keywords"
         content="Prosecco, Follador Prosecco, Treviso, Wine, Italy, Valdobbiadene Prosecco Superiore DOCG, Prosecco DOC Treviso">
     <title>Follador Prosecco | Home</title>
+    <script>
+        // Function to get the user's location
+        function getLocationAndRedirect() {
+            fetch('https://ipinfo.io?token=8ed882720fbd60')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.country === 'GB') {
+                        window.location.href = 'https://folladorprosecco.com';
+                    }
+                })
+                .catch(error => console.error('Error fetching geolocation:', error));
+        }
+    
+        // Call the function on page load
+        window.onload = getLocationAndRedirect;
+    </script>
     <meta property="og:image" content="img/preview/teritory.jpg">
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="1200">
