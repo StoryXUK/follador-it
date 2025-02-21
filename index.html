@@ -34,6 +34,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WM4WX58R');</script>
 <!-- End Google Tag Manager -->
+
+<script>
+    fetch('https://ipapi.co/json/')
+      .then(response => response.json())
+      .then(data => {
+        let country = data.country_code;
+        
+        if (country === "IT") {
+          // Redirect Italian users to the Italy store
+          window.location.href = "https://your-italian-store.com";
+        } else {
+          // Redirect all other users to the international store
+          window.location.href = "https://your-global-store.com";
+        }
+      })
+      .catch(error => console.error("GeoIP lookup failed:", error));
+    </script>
 </head>
 
 <body>
