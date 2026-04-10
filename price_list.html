@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ex-Cellars Price List 2026</title>
+  <style>
+    :root {
+      --bg: #f7f5f1;
+      --panel: #ffffff;
+      --ink: #1f1a17;
+      --muted: #6f655d;
+      --line: #e7e1d9;
+      --accent: #8b6b3f;
+      --accent-2: #d8c4a0;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(216,196,160,.25), transparent 30%),
+        linear-gradient(180deg, #fbfaf8 0%, var(--bg) 100%);
+      color: var(--ink);
+    }
+    .container {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .hero {
+      padding: 56px 0 24px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      background: rgba(255,255,255,.7);
+      backdrop-filter: blur(8px);
+    }
+    h1 {
+      margin: 18px 0 10px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 5vw, 62px);
+      line-height: 1.02;
+      font-weight: 600;
+      letter-spacing: -.03em;
+    }
+    .sub {
+      margin: 0;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 14px 0;
+      backdrop-filter: blur(14px);
+      background: rgba(247,245,241,.8);
+      border-top: 1px solid rgba(255,255,255,.2);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .nav a {
+      text-decoration: none;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.9);
+      padding: 9px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      transition: .2s ease;
+    }
+    .nav a:hover {
+      border-color: var(--accent-2);
+      transform: translateY(-1px);
+    }
+    .content {
+      padding: 26px 0 60px;
+      display: grid;
+      gap: 24px;
+    }
+    .section-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(31,26,23,.04);
+    }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: end;
+      padding: 22px 22px 16px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(216,196,160,.22) 0%, rgba(255,255,255,1) 100%);
+    }
+    .section-head h2 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(24px, 3vw, 32px);
+      font-weight: 600;
+      letter-spacing: -.02em;
+    }
+    .section-head span {
+      color: var(--muted);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .table-wrap {
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+    }
+    thead th {
+      text-align: left;
+      padding: 14px 22px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--muted);
+      background: #fcfbf9;
+      border-bottom: 1px solid var(--line);
+    }
+    tbody td {
+      padding: 16px 22px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      font-size: 15px;
+    }
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+    td.cat {
+      color: var(--muted);
+      font-weight: 600;
+      width: 16%;
+    }
+    td.product {
+      font-weight: 600;
+      width: 44%;
+    }
+    td.price {
+      text-align: right;
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+      width: 13%;
+    }
+    .footer {
+      padding: 0 0 44px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 760px) {
+      .hero {
+        padding-top: 34px;
+      }
+      .sub {
+        font-size: 16px;
+      }
+      .section-head {
+        align-items: start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">Ex-Cellars 2026</span>
+      <h1>Ex-Cellars Price List 2026</h1>
+      <p class="sub">Follador Product / RRP Price List. Converted from the supplied workbook into a clean, responsive HTML layout with section navigation and pricing tables.</p>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#sec-1">Follador Prestige Wines</a>
+<a href="#sec-2">Follador Premium Wines</a>
+<a href="#sec-3">New | Prosecco By Follador</a>
+<a href="#sec-4">Alternate Formats</a>
+<a href="#sec-5">Gifting</a>
+<a href="#sec-6">Ca Dei Noni</a>
+    </div>
+  </nav>
+
+  <main class="container content">
+    
+    <section class="section-card" id="sec-1">
+      <div class="section-head">
+        <h2>FOLLADOR PRESTIGE WINES</h2>
+        <span>7 products</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Product</th>
+              <th>RRP</th>
+              <th>Ex-Cellars - PB</th>
+              <th>Ex-Cellars - Case</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="cat">DOCG</td>
+          <td class="product">P01 - CARTIZZE</td>
+          <td class="price">£24.99</td>
+          <td class="price">£10.49</td>
+          <td class="price">£62.94</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">DOCG</td>
+          <td class="product">P02 - RUIOL CASTEI</td>
+          <td class="price">£17.50</td>
+          <td class="price">£5.95</td>
+          <td class="price">£35.70</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">DOCG</td>
+          <td class="product">P03 - NANI DEI BERTI</td>
+          <td class="price">£19.99</td>
+          <td class="price">£6.20</td>
+          <td class="price">£37.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">DOCG</td>
+          <td class="product">P04 - CRU TORRI DI CREDAZZO</td>
+          <td class="price">£19.99</td>
+          <td class="price">£6.20</td>
+          <td class="price">£37.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">DOCG</td>
+          <td class="product">P05 - XZERO</td>
+          <td class="price">£19.99</td>
+          <td class="price">£6.20</td>
+          <td class="price">£37.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">DOCG</td>
+          <td class="product">P06 - FOSELIOS</td>
+          <td class="price">£17.50</td>
+          <td class="price">£5.95</td>
+          <td class="price">£35.70</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">N/A</td>
+          <td class="product">PRESTIGE ROSE</td>
+          <td class="price">£17.50</td>
+          <td class="price">£5.95</td>
+          <td class="price">£35.70</td>
+        </tr>
+        
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    <section class="section-card" id="sec-2">
+      <div class="section-head">
+        <h2>FOLLADOR PREMIUM WINES</h2>
+        <span>6 products</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Product</th>
+              <th>RRP</th>
+              <th>Ex-Cellars - PB</th>
+              <th>Ex-Cellars - Case</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="cat">D.O.C.</td>
+          <td class="product">005 - FARDÉR</td>
+          <td class="price">£11.99</td>
+          <td class="price">£4.20</td>
+          <td class="price">£25.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">D.O.C.</td>
+          <td class="product">011 - VALBON</td>
+          <td class="price">£11.99</td>
+          <td class="price">£4.20</td>
+          <td class="price">£25.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">DOC ROSE&#x27;</td>
+          <td class="product">014 - LAELIA</td>
+          <td class="price">£11.99</td>
+          <td class="price">£5.00</td>
+          <td class="price">£30.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">FRIZZANTI</td>
+          <td class="product">021_TC AERIS TAPPO CORONA</td>
+          <td class="price">£10.99</td>
+          <td class="price">£4.10</td>
+          <td class="price">£24.60</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">FRIZZANTI</td>
+          <td class="product">021_TS AERIS TAPPO STELVIN</td>
+          <td class="price">£10.99</td>
+          <td class="price">£4.10</td>
+          <td class="price">£24.60</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">FRIZZANTI</td>
+          <td class="product">022 - SPAGO</td>
+          <td class="price">£10.99</td>
+          <td class="price">£4.50</td>
+          <td class="price">£27.00</td>
+        </tr>
+        
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    <section class="section-card" id="sec-3">
+      <div class="section-head">
+        <h2>NEW | PROSECCO BY FOLLADOR</h2>
+        <span>3 products</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Product</th>
+              <th>RRP</th>
+              <th>Ex-Cellars - PB</th>
+              <th>Ex-Cellars - Case</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="cat">D.O.C.</td>
+          <td class="product">BRUT</td>
+          <td class="price">£9.99</td>
+          <td class="price">£3.40</td>
+          <td class="price">£20.40</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">D.O.C.</td>
+          <td class="product">EXTRA DRY</td>
+          <td class="price">£9.99</td>
+          <td class="price">£3.40</td>
+          <td class="price">£20.40</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">D.O.C.</td>
+          <td class="product">ROSE</td>
+          <td class="price">£9.99</td>
+          <td class="price">£3.40</td>
+          <td class="price">£20.40</td>
+        </tr>
+        
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    <section class="section-card" id="sec-4">
+      <div class="section-head">
+        <h2>ALTERNATE FORMATS</h2>
+        <span>13 products</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Product</th>
+              <th>RRP</th>
+              <th>Ex-Cellars - PB</th>
+              <th>Ex-Cellars - Case</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="cat">D.O.C.</td>
+          <td class="product">005_PICCOLO FARDER</td>
+          <td class="price">£2.99</td>
+          <td class="price">£1.80</td>
+          <td class="price">£43.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">FRIZZANTI</td>
+          <td class="product">021_PICCOLO - AERIS</td>
+          <td class="price">£2.99</td>
+          <td class="price">£1.40</td>
+          <td class="price">£33.60</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">MAGNUM CASE</td>
+          <td class="product">P62 - Magnum RUIOL</td>
+          <td class="price">£34.99</td>
+          <td class="price">£16.20</td>
+          <td class="price">£97.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">MAGNUM CASE</td>
+          <td class="product">P63 - Magnum NANI DEI BERTI</td>
+          <td class="price">£36.99</td>
+          <td class="price">£18.00</td>
+          <td class="price">£108.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">MAGNUM CASE</td>
+          <td class="product">P64 - Magnum TORRI</td>
+          <td class="price">£36.99</td>
+          <td class="price">£18.00</td>
+          <td class="price">£108.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">MAGNUM CASE</td>
+          <td class="product">P65 - Magnum XZERO</td>
+          <td class="price">£36.99</td>
+          <td class="price">£18.00</td>
+          <td class="price">£108.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">MAGNUM CASE</td>
+          <td class="product">P66 - Magnum FOSELIOS</td>
+          <td class="price">£34.99</td>
+          <td class="price">£16.20</td>
+          <td class="price">£97.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">MAGNUM CASE</td>
+          <td class="product">Magnum Prestige ROSE</td>
+          <td class="price">£34.99</td>
+          <td class="price">£16.20</td>
+          <td class="price">£97.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">MAGNUM CASE</td>
+          <td class="product">058 - Magnum FARDÉR</td>
+          <td class="price">£23.50</td>
+          <td class="price">£16.20</td>
+          <td class="price">£97.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">MAGNUM CASE</td>
+          <td class="product">058 - Magnum VALBON</td>
+          <td class="price">£23.50</td>
+          <td class="price">£18.00</td>
+          <td class="price">£108.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">MAGNUM CASE</td>
+          <td class="product">061- Magnum LAELIA</td>
+          <td class="price">£23.50</td>
+          <td class="price">£18.00</td>
+          <td class="price">£108.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">JEROBOAM</td>
+          <td class="product">065 - Jeroboam RUIOL CASTEI</td>
+          <td class="price">£69.99</td>
+          <td class="price">£49.90</td>
+          <td class="price">£299.40</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">JEROBOAM</td>
+          <td class="product">066 - Jeroboam NANI DEI BERTI</td>
+          <td class="price">£69.99</td>
+          <td class="price">£49.90</td>
+          <td class="price">£299.40</td>
+        </tr>
+        
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    <section class="section-card" id="sec-5">
+      <div class="section-head">
+        <h2>GIFTING</h2>
+        <span>21 products</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Product</th>
+              <th>RRP</th>
+              <th>Ex-Cellars - PB</th>
+              <th>Ex-Cellars - Case</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="cat">GIFT DOCG</td>
+          <td class="product">RUIOL CASTEI</td>
+          <td class="price">£22.99</td>
+          <td class="price">£11.50</td>
+          <td class="price">£69.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT DOCG</td>
+          <td class="product">NANI DEI BERTI</td>
+          <td class="price">£25.99</td>
+          <td class="price">£11.80</td>
+          <td class="price">£70.80</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT DOCG</td>
+          <td class="product">TORRI</td>
+          <td class="price">£25.99</td>
+          <td class="price">£11.80</td>
+          <td class="price">£70.80</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT DOCG</td>
+          <td class="product">XZERO</td>
+          <td class="price">£25.99</td>
+          <td class="price">£11.80</td>
+          <td class="price">£70.80</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT DOCG</td>
+          <td class="product">FOSELIOS</td>
+          <td class="price">£22.99</td>
+          <td class="price">£11.50</td>
+          <td class="price">£69.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT DOCG</td>
+          <td class="product">PRESTIGE ROSE</td>
+          <td class="price">£22.99</td>
+          <td class="price">£11.50</td>
+          <td class="price">£69.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT MAGNUM</td>
+          <td class="product">Magnum Prestige ROSE</td>
+          <td class="price">£37.99</td>
+          <td class="price">£23.80</td>
+          <td class="price">£142.80</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT MAGNUM</td>
+          <td class="product">P62 - Magnum RUIOL CASTEI</td>
+          <td class="price">£37.99</td>
+          <td class="price">£23.80</td>
+          <td class="price">£142.80</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT MAGNUM</td>
+          <td class="product">P63 - Magnum NANI DEI BERTI</td>
+          <td class="price">£37.99</td>
+          <td class="price">£25.20</td>
+          <td class="price">£151.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT MAGNUM</td>
+          <td class="product">P64 - Magnum CRU TORRI</td>
+          <td class="price">£39.99</td>
+          <td class="price">£25.20</td>
+          <td class="price">£151.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT MAGNUM</td>
+          <td class="product">P65 - Magnum XZERO</td>
+          <td class="price">£39.99</td>
+          <td class="price">£25.20</td>
+          <td class="price">£151.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT MAGNUM</td>
+          <td class="product">P66 - Magnum FOSELIOS</td>
+          <td class="price">£39.99</td>
+          <td class="price">£23.80</td>
+          <td class="price">£142.80</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT MAGNUM</td>
+          <td class="product">058 - Magnum FARDÉR</td>
+          <td class="price">£37.99</td>
+          <td class="price">£22.10</td>
+          <td class="price">£132.60</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT MAGNUM</td>
+          <td class="product">058 - Magnum VALBON</td>
+          <td class="price">£24.99</td>
+          <td class="price">£22.10</td>
+          <td class="price">£132.60</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT MAGNUM</td>
+          <td class="product">061- Magnum LAELIA</td>
+          <td class="price">£24.99</td>
+          <td class="price">£22.10</td>
+          <td class="price">£132.60</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT PACK</td>
+          <td class="product">2 Bottles</td>
+          <td class="price">£27.99</td>
+          <td class="price">£12.40</td>
+          <td class="price">£74.40</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT PACK</td>
+          <td class="product">3 Bottles</td>
+          <td class="price">£39.99</td>
+          <td class="price">£17.60</td>
+          <td class="price">£105.60</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT PACK</td>
+          <td class="product">1 Bottle + 2 glasses</td>
+          <td class="price">£19.99</td>
+          <td class="price">£13.90</td>
+          <td class="price">£83.40</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT PACK</td>
+          <td class="product">3 Bottle bucket</td>
+          <td class="price">£64.99</td>
+          <td class="price">£25.90</td>
+          <td class="price">£155.40</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT PACK</td>
+          <td class="product">1 Bottle + 2 glasse bucket</td>
+          <td class="price">£29.99</td>
+          <td class="price">£15.90</td>
+          <td class="price">£95.40</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GRAPPA</td>
+          <td class="product">GRAPPA in Gift Box</td>
+          <td class="price">£49.99</td>
+          <td class="price">£36.80</td>
+          <td class="price">£220.80</td>
+        </tr>
+        
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    <section class="section-card" id="sec-6">
+      <div class="section-head">
+        <h2>CA DEI NONI</h2>
+        <span>10 products</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Product</th>
+              <th>RRP</th>
+              <th>Ex-Cellars - PB</th>
+              <th>Ex-Cellars - Case</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="cat">CA&#x27; DEI NONI</td>
+          <td class="product">084 - CABERNET VARIETALE</td>
+          <td class="price">£7.99</td>
+          <td class="price">£5.20</td>
+          <td class="price">£31.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">CA&#x27; DEI NONI</td>
+          <td class="product">085 - CABERNET IGT</td>
+          <td class="price">£9.99</td>
+          <td class="price">£5.90</td>
+          <td class="price">£35.40</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">CA&#x27; DEI NONI</td>
+          <td class="product">086 - CABERNET MONTELLO</td>
+          <td class="price">£19.99</td>
+          <td class="price">£12.00</td>
+          <td class="price">£72.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">CA&#x27; DEI NONI</td>
+          <td class="product">081 - LUGANA</td>
+          <td class="price">£11.99</td>
+          <td class="price">£8.20</td>
+          <td class="price">£49.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">CA&#x27; DEI NONI</td>
+          <td class="product">082 - RIFERMENTATO</td>
+          <td class="price">£7.99</td>
+          <td class="price">£4.80</td>
+          <td class="price">£28.80</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">CA&#x27; DEI NONI</td>
+          <td class="product">087 - RIPASSO</td>
+          <td class="price">£11.99</td>
+          <td class="price">£7.90</td>
+          <td class="price">£47.40</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">CA&#x27; DEI NONI</td>
+          <td class="product">090 - FIORFIORE</td>
+          <td class="price">£7.99</td>
+          <td class="price">£5.20</td>
+          <td class="price">£31.20</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">CA&#x27; DEI NONI</td>
+          <td class="product">091 - AMARONE</td>
+          <td class="price">£29.99</td>
+          <td class="price">£18.00</td>
+          <td class="price">£108.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT NONI</td>
+          <td class="product">CABERNET MONTELLO</td>
+          <td class="price">£21.99</td>
+          <td class="price">£14.00</td>
+          <td class="price">£84.00</td>
+        </tr>
+        
+        <tr>
+          <td class="cat">GIFT NONI</td>
+          <td class="product">MAGNUM CABERNET MONTELLO</td>
+          <td class="price">£39.99</td>
+          <td class="price">£34.00</td>
+          <td class="price">£204.00</td>
+        </tr>
+        
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="container footer">
+    Prices shown in GBP. Layout generated from the uploaded spreadsheet.
+  </footer>
+</body>
+</html>
