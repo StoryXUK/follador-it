@@ -57,6 +57,7 @@ $(function () {
     var wind = $(window);
 
     loadNav();
+    includeFooter();
     
     
     // ScrollIt
@@ -811,53 +812,11 @@ function declineAge() {
     window.location.href = 'restricted-access.html';
 }
 
-// Call the showAgeVerificationModal function when the page loads
-window.onload = showAgeVerificationModal;
-
-
-
-
-
-
-
-
-// Navigation
-
-
-
-
-
 // Function to include footer from footer.html
 function includeFooter() {
+    var el = document.getElementById('footer');
+    if (!el) return;
     fetch('footer.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('footer').innerHTML = data;
-        });
+        .then(function(response) { return response.text(); })
+        .then(function(data) { el.innerHTML = data; });
 }
-
-// Call includeNavigation and includeFooter functions when the page loads
-window.onload = function() {
-   
-    includeFooter();
-};
-
-
-
-
-
-
-// Function to include footer from footer.html
-function includeFooter() {
-    fetch('footer.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('footer-news').innerHTML = data;
-        });
-}
-
-// Call includeNavigation and includeFooter functions when the page loads
-window.onload = function() {
-   
-    includeFooter();
-};
