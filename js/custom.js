@@ -32,31 +32,10 @@
 ------------------------------------------------------- */
 
 
-// Load nav.html into #site-nav if the placeholder exists, then run post-inject setup.
-// Pages that already have the nav inlined will skip this entirely.
-function loadNav() {
-    var placeholder = document.getElementById('site-nav');
-    if (!placeholder) return;
-    fetch('nav.html')
-        .then(function (response) {
-            if (!response.ok) throw new Error('Failed to load nav.html');
-            return response.text();
-        })
-        .then(function (html) {
-            placeholder.outerHTML = html;
-            // Append submenu holder spans now that the nav is in the DOM
-            $('.cappa-menu>ul>li.cappa-menu-sub>a').append('<span class="holder"></span>');
-        })
-        .catch(function (err) {
-            console.error('Nav load error:', err);
-        });
-}
-
 $(function () {
     "use strict";
     var wind = $(window);
 
-    loadNav();
     includeFooter();
     
     
