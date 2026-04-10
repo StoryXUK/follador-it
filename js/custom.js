@@ -32,9 +32,31 @@
 ------------------------------------------------------- */
 
 
+// Load nav.html into #site-nav if the placeholder exists, then run post-inject setup.
+// Pages that already have the nav inlined will skip this entirely.
+function loadNav() {
+    var placeholder = document.getElementById('site-nav');
+    if (!placeholder) return;
+    fetch('nav.html')
+        .then(function (response) {
+            if (!response.ok) throw new Error('Failed to load nav.html');
+            return response.text();
+        })
+        .then(function (html) {
+            placeholder.outerHTML = html;
+            // Append submenu holder spans now that the nav is in the DOM
+            $('.cappa-menu>ul>li.cappa-menu-sub>a').append('<span class="holder"></span>');
+        })
+        .catch(function (err) {
+            console.error('Nav load error:', err);
+        });
+}
+
 $(function () {
     "use strict";
     var wind = $(window);
+
+    loadNav();
     
     
     // ScrollIt
@@ -81,8 +103,8 @@ $(function () {
     });
     
 
-    // Menu Navigation    
-    $('.cappa-js-cappa-nav-toggle').on('click', function (e) {
+    // Menu Navigation (delegated so it works when nav is injected via fetch)
+    $(document).on('click', '.cappa-js-cappa-nav-toggle', function (e) {
         var $this = $(this);
         e.preventDefault();
         if ($('body').hasClass('menu-open')) {
@@ -113,8 +135,8 @@ $(function () {
         }
     });
      
-    // Sub Menu 
-    $('.cappa-menu li.cappa-menu-sub>a').on('click', function () {
+    // Sub Menu (delegated so it works when nav is injected via fetch)
+    $(document).on('click', '.cappa-menu li.cappa-menu-sub>a', function () {
         $(this).removeAttr('href');
         var element = $(this).parent('li');
         if (element.hasClass('open')) {
@@ -131,7 +153,6 @@ $(function () {
             element.siblings('li').find('ul').slideUp();
         }
     });
-    $('.cappa-menu>ul>li.cappa-menu-sub>a').append('<span class="holder"></span>');
     
     
     
@@ -822,15 +843,21 @@ window.onload = function() {
 };
 
 
-function toggleIframes() {
-    var iframe1 = document.getElementById("iframe1");
-    var iframe2 = document.getElementById("iframe2");
 
-    if (iframe1.style.display === "none") {
-      iframe1.style.display = "block";
-      iframe2.style.display = "none";
-    } else {
-      iframe1.style.display = "none";
-      iframe2.style.display = "block";
-    }
-  }
+
+
+
+// Function to include footer from footer.html
+function includeFooter() {
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-news').innerHTML = data;
+        });
+}
+
+// Call includeNavigation and includeFooter functions when the page loads
+window.onload = function() {
+   
+    includeFooter();
+};
