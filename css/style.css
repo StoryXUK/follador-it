@@ -3365,6 +3365,15 @@ hr.border-2 {
     color: #aa8453;
 }
 
+
+.page-list-icon img {
+    display: block;
+    flex: 0 0 42px;
+    height: 42px;
+    object-fit: contain;
+    width: 42px;
+}
+
 .page-list-text {
     margin-left: 15px;
 }
