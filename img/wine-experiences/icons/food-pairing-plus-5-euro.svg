@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Food pairing plus €5</title>
+  <desc id="desc">A plate and wine glass with a plus symbol</desc>
+  <g fill="none" stroke="#B08A57" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="25" cy="35" r="16"/>
+    <circle cx="25" cy="35" r="10"/>
+    <path d="M48 16h10l-1.2 10.1A4.8 4.8 0 0 1 52 30.5a4.8 4.8 0 0 1-4.8-4.4L46 16h2Z"/>
+    <path d="M47 23h10M52 30.5V43M48 45h8"/>
+    <circle cx="48" cy="52" r="7"/>
+    <path d="M48 48.5v7M44.5 52h7"/>
+  </g>
+</svg>
