@@ -304,27 +304,30 @@ $(function () {
     });
     
     // Pricing owlCarousel *
-    $('.pricing .owl-carousel').owlCarousel({
-        loop: true,
-        margin: 30,
-        mouseDrag: true,
-        autoplay: false,
-        dots: true,
-        autoplayHoverPause: true,
-        nav: false,
-        navText: ["<span class='lnr ti-angle-left'></span>","<span class='lnr ti-angle-right'></span>"],
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 2
+    $('.pricing .owl-carousel').each(function () {
+        var isExperienceCarousel = $(this).hasClass('experience-carousel');
+        $(this).owlCarousel({
+            loop: true,
+            margin: 30,
+            mouseDrag: true,
+            autoplay: false,
+            dots: true,
+            autoplayHoverPause: true,
+            nav: false,
+            navText: ["<span class='lnr ti-angle-left'></span>","<span class='lnr ti-angle-right'></span>"],
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: isExperienceCarousel ? 2 : 1
+                },
+                1000: {
+                    items: isExperienceCarousel ? 3 : 2
+                }
             }
-        }
+        });
     });
     
     // News owlCarousel *
