@@ -4603,6 +4603,11 @@ button.mfp-arrow {
     min-height: 400px;
 }
 
+.experience-card-image {
+    aspect-ratio: 8 / 5;
+    object-fit: cover;
+}
+
 .pricing-card .desc {
     padding: 40px;
 }
